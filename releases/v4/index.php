@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acolher</title>
+        <link rel="stylesheet" href="src/CSS/Estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <section class="Principal"><!--Iniciando Principal-->
+            <div class="Transparencia"></div>
+
+            <div class="Centro">
+
+                <Header>
+
+                    <div class="Icones-sociais">
+
+                        <a href="https:/facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/espacoacolherrara/" target="blank"><i class="fa fa-instagram"></i></a>
+
+                    </div><!--Fechando Icones Sociais-->
+
+                    <div class="Clear"></div>
+
+                    <nav class="Desktop">
+
+                        <ul>
+
+                            <li><a href="index.php">Acolher</a></li>
+                            <li><a href="src/QuemSomos.php">Quem Somos?</a></li>
+                            <li><a href="src/Profissionais.php">Profissionais</a></li>
+                            <li><a href="src/Agendamento.php">Agendamento</a></li>
+                            <li><a href="src/Coordenacao.php">Coordenação <i class="fa-solid fa-user-lock"></i></a></li>
+
+                        </ul>
+
+                    </nav><!--Fechando Desktop-->
+
+                    <nav class="Mobile">
+
+                        <i class="fa fa-bars"></i>
+
+                        <ul>
+
+                            <li><a href="index.php">Acolher</a></li>
+                            <li><a href="src/QuemSomos.php">Quem Somos?</a></li>
+                            <li><a href="src/Profissionais.php">Profissionais</a></li>
+                            <li><a href="src/Agendamento.php">Agendamento</a></li>
+                            <li><a href="src/Coordenacao.php">Coordenação</a></li>
+
+                        </ul>
+                    </nav><!--Fechando Mobile -->
+                    <div class="clear"></div>
+
+                </Header><!--Fechando Header-->
+
+                <div class="Titulo">
+                    <img src="src/IMG/Acolher_titulo.png" alt="Titulo">
+                    <a href="https://www.instagram.com/raravgp/" target="blank">Comunhão RARA VGP</a>
+                </div>
+
+                <div class="Conteudo-cabecalho">
+
+                    <!--<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Culpa, nemo accusamus cumque quia quis sit, similique ex et,
+                         est veniam veritatis? Commodi culpa omnis ipsa, error dolorum 
+                         dolores accusantium aliquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                         tenetur blanditiis. Consequatur, excepturi ut reiciendis atqu
+                         xplicabo, nesciunt quis provident dolorum quia sit distincti
+                         o?</p>
+                    <a href="#">Saiba mais </a>-->
+
+                </div><!--Fechando Cabecalho-->
+
+            </div><!--Fechando Centro-->
+
+        </section><!--Fechando Principal-->
+
+        <section class="Atendimentos"><!--Abrindo atendimentos-->
+
+            <div class="Chamada-atendimentos">
+                <div class="Centro">
+                    <h2 id="Tipos">CONFIRA OS ATENDIMENTOS QUE POSSUÍMOS</h2>
+                </div>
+            </div><!--Fechando Chamada atendimentos-->
+
+            <section class="Box-atendimentos"><!--Abrindo Box atendimentos-->
+
+                <div class="Centro">
+
+                    <div class="Box-atendimentos-individual">
+
+                        <div class="Box-atendimentos-conteudo">
+
+                            <img class="Imagem" src="src/IMG/Psicopedagoga.png" alt="">
+
+                            <div class="Pontos-atendimentos">
+
+                                <h2>Psicopedagógico</h2>
+
+                            </div><!--Fechando pontos atendimentos-->                        
+
+                        </div><!--Fechando atendimentos conteudo-->
+
+                    </div><!--Fechando Box atendimentos individual-->
+
+
+                    <div class="Box-atendimentos-individual">
+
+                        <div class="Box-atendimentos-conteudo">
+
+                            <img class="Imagem" src="src/IMG/Musicoterapia.png" alt="">
+
+                            <div class="Pontos-atendimentos">
+
+                                <h2>Musicoterapia</h2>
+
+                            </div><!--Fechando pontos atendimentos-->                        
+
+                        </div><!--Fechando atendimentos conteudo-->
+
+                    </div><!--Fechando Box atendimentos individual-->
+
+
+                    <div class="Box-atendimentos-individual">
+
+                        <div class="Box-atendimentos-conteudo">
+
+                            <img class="Imagem" src="src/IMG/Terapia_nutri.png" alt="">
+
+                            <div class="Pontos-atendimentos">
+
+                                <h2>Terapia Nutricional</h2>
+
+                            </div><!--Fechando pontos atendimentos-->                        
+
+                        </div><!--Fechando atendimentos conteudo-->
+
+                    </div><!--Fechando Box atendimentos individual-->
+
+
+                    <div class="Box-atendimentos-individual">
+
+                        <div class="Box-atendimentos-conteudo">
+
+                            <img class="Imagem" src="src/IMG/ABA.png" alt="">
+
+                            <div class="Pontos-atendimentos">
+
+                                <h2>ABA</h2>
+
+                            </div><!--Fechando pontos atendimentos-->                        
+
+                        </div><!--Fechando atendimentos conteudo-->
+
+                    </div><!--Fechando Box atendimentos individual-->
+
+
+                </div><!--Fechando centro--> 
+
+            </section><!--Fechando Box atendimentos-->
+
+        </section><!--Fechando atendimentos-->
+
+        <section class="Sobre"><!--Abrindo sobre-->
+
+            <div class="Transparencia"></div> 
+
+            <div class="Centro"><!--Abrindo Centro-->
+
+                <h2>Acolher é amar</h2>
+
+                <p>Somos mais do que uma instituição, somos uma família!</p>
+                <p>Cuidamos por amor, é a nossa missão, acolher, instruir e cuidar.</p>
+
+            </div><!--Fechando centro-->
+
+        </section><!--Fechando sobre-->
+
+        <section class="Section-info"><!--Abrindo section info-->
+
+            <div class="Centro">
+
+                <div class="T50 time"><!--Abrindo t50 time-->
+
+                        <h2><div class="Borda-efeito"></div>Entre em contato</h2>
+
+                        <div class="T50 equipe-individual">
+
+                            <div class="Info-usuario">
+
+                                <a href="src/Agendamento.php">Clique aqui</a>
+                            </div>
+
+                        </div>
+
+                </div><!--Fechando t50 time--> 
+
+                <div class="T50 time"><!--Abrindo t50 time-->
+
+                    <h2><div class="Borda-efeito"></div>Conheça nossa</h2>
+
+                    <div class="T50 equipe-individual">
+
+                        <div class="Info-usuario">
+                            <a href="src/Profissionais.html">Equipe</a>
+                        </div>
+
+                    </div>
+
+                    <div class="Clear"></div>
+                </div><!--Fechando t50 time-->
+
+                <div class="Clear"></div>
+            </div><!--Fechando centro-->
+
+        </section><!--Fechando section info-->
+
+        <footer>      
+
+            <div class="Footer-opcoes">
+
+                <li><a href="index.php">Acolher</a></li>
+                <li><a href="src/QuemSomos.php#Historia">História</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="src/QuemSomos.php">Quem Somos?</a></li>
+                <li><a href="https://maps.app.goo.gl/TL5BUd1WbPBUJEJN7" target="_blank">Localidade</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="src/Profissionais.php">Profissionais</a></li>
+                <li><a href="src/QuemSomos.php#Duvidas">Dúvidas</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="src/Agendamento.php#Agendamento">Agendamentos</a></li>
+                <li><a href="index.php#Tipos">Atendimentos</a></li>
+
+            </div>
+
+
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <script>
+
+            $(function (){
+
+                $('nav.Mobile i').click(function(){
+
+                    var clicando = $(this).parent().find('ul')
+                    if(clicando.is(':visible') == false) {
+                        clicando.fadeIn();
+                    }
+                    else{
+                        clicando.fadeOut();
+                    }
+
+                })
+            })
+
+        </script>
+
+    </body>
+</html>
