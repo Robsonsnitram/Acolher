@@ -1,0 +1,223 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,"Luckiest Guy","Cherry Bomb";
+}   
+
+
+html, body{ height: 100%;}
+
+/*Classes auxiliares*/
+
+section.Principal{
+
+    position: relative;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 15%;
+    background-attachment: fixed;
+
+}
+
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 5%;
+
+}
+
+.Clear{
+    clear: both;
+}
+
+section.Transparencia {
+
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    
+}
+
+section.Principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    z-index: 2;
+    margin-top: 32px;
+}
+
+
+/*Navbar*/
+nav.Desktop{
+
+    margin-top: 30px;
+    float: right;
+
+}
+
+nav.Desktop ul{
+    list-style-type: none;
+}
+
+nav.Desktop li{
+
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+nav.Desktop a{
+
+    color: #fff;
+    text-decoration: none;
+    background: #A19E9A;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-family: "luckiest guy";
+    box-shadow: 4px 4px 0px 2px black;
+
+}
+
+nav.Desktop a:hover{
+
+    color: black;
+    transition: 0.8s;
+ 
+}
+
+nav.Mobile{
+    display: none;
+    float: right;
+}
+
+nav.Mobile i{
+
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    color: #A1BEC2;
+    cursor: pointer;
+    float: right;
+}
+
+nav.Mobile ul{
+
+    position: absolute;
+    right: 15%;
+    width: 80%;
+    top: 60px;
+    list-style-type: none;
+    display: none; 
+}
+
+nav.Mobile li{
+    
+    font-weight: lighter;
+    box-shadow: 5px 4px 1px 1px #F7E9E6;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    background: #A1BEC2;
+    margin-bottom: 10px;
+}
+
+nav.Mobile a{
+
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "luckiest guy";
+    text-transform: uppercase;
+}
+/*fechando navbar*/
+
+/*tabela*/
+
+.Tabela h1{
+
+    color: #A1BEC2;
+    font-family: 'luckiest guy';
+    font-weight: lighter;
+    font-size: 80px;
+    padding: 0 0 50px 0;
+
+}
+
+.Tabela, th, td {
+
+    border-collapse: collapse; /*define a separação entre as bordas*/
+    text-align: left;
+    padding: 10px;
+    color: white;
+
+}
+
+th{
+
+    background-color: #A19E9A;
+    font-family: 'luckiest guy';
+    font-weight: lighter;
+}
+
+tr{
+    background-color: #A1BEC2;
+}
+
+td{
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+
+
+
+/*Iniciando responsividade*/
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {display: block ;}
+    .Mobile i {
+        margin: 0 15px 0 15px;
+    }
+
+    section.Principal{
+
+        min-height: 100%;
+        background-position: 35%;
+        background-attachment: initial;
+    }
+
+    .Titulo{
+        position: relative;
+        float: right;
+        margin: 30px 0 30px 0;
+        max-height: 20px;
+    }
+
+    .Titulo img{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .T50{
+
+        margin-top: 50%;
+    }
+
+
+    .T50 input{
+
+        margin-top: 300px;
+
+    }
+
+
+    nav.Desktop {display: none;}
+    

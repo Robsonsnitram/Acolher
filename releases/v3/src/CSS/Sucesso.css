@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,"Luckiest Guy","Cherry Bomb";
+}   
+
+
+html, body{ height: 100%;}
+
+/*Classes auxiliares*/
+
+body{
+
+    background: #F7E9E6;
+}
+
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 5%;
+
+}
+
+.Clear{
+    clear: both;
+}
+
+section.Sucesso{
+
+    margin: 100px auto;
+}
+
+section.Sucesso h1{
+
+    font-family: 'luckiest guy';
+    font-weight: lighter;
+    font-size: 75px;
+    color: #B9C2AC;
+
+}
+
+section.Sucesso p{
+
+    font-family: 'gochi hand';
+    font-size: 30px;
+    color: #A1BEC2;
+
+}
+
+
+
+
+/*Iniciando responsividade*/
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {display: block ;}
+    .Mobile i {
+        margin: 0 15px 0 15px;
+    }
+
+    section.Sucesso h1{
+
+        font-size: 60px;
+    }
+
+    section.Sucesso p{
+
+        font-size: 20px;
+        
+    }
+
+    nav.Desktop {display: none;}
+    

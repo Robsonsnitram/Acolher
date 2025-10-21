@@ -1,0 +1,464 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,"Luckiest Guy","Cherry Bomb";
+}   
+
+
+html, body{ height: 100%;}
+
+/*Classes auxiliares*/
+
+section.Principal{
+
+    position: relative;
+    background-image: url('../IMG/Inicio.jpg');
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 100%;
+    background-attachment: fixed;
+
+}
+
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 5%;
+
+}
+
+.Clear{
+    clear: both;
+}
+.Transparencia{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+section.Principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffff;
+    z-index: 2;
+}
+
+.Icones-sociais{
+    float: right;
+}
+
+.Icones-sociais a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+.Icones-sociais a:hover{
+    color: grey;
+}
+
+
+/*Navbar*/
+nav.Desktop{
+
+    margin-top: 30px;
+    float: right;
+
+}
+
+nav.Desktop ul{
+    list-style-type: none;
+}
+
+nav.Desktop li{
+
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+nav.Desktop a{
+
+    color: #fff;
+    text-decoration: none;
+    background: #A1BEC2;
+    border-radius: 8px;
+    padding: 6px 8px;
+    font-family: "luckiest guy";
+    box-shadow: 4px 4px 0px 2px black;
+
+}
+
+nav.Desktop a:hover{
+
+    color: black;
+    transition: 0.8s;
+ 
+}
+
+nav.Mobile{
+    display: none;
+    float: right;
+}
+
+nav.Mobile i{
+
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    color: #F7E9E6;
+    cursor: pointer;
+    float: right;
+}
+
+nav.Mobile ul{
+
+    position: absolute;
+    right: 15%;
+    width: 80%;
+    top: 60px;
+    list-style-type: none;
+    display: none; 
+}
+
+nav.Mobile li{
+    
+    font-weight: lighter;
+    box-shadow: 5px 4px 1px 1px #F7E9E6;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    background: #A1BEC2;
+    margin-bottom: 10px;
+}
+
+nav.Mobile a{
+
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "luckiest guy";
+    text-transform: uppercase;
+}
+/*fechando navbar*/
+
+.Titulo{
+
+    position: relative;
+    max-width: 800px;
+    float: right;
+    margin-left: 800px;
+    max-height: 200px;
+}
+
+.Titulo img{
+    float: right;
+    margin-top: 90px;
+}
+
+.Titulo a{
+
+    float: right;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: -170px;
+    font-family: "Gochi Hand";
+
+}
+
+.Chamada-atendimentos{
+
+    width: 100%;
+    text-align: center;
+    padding: 30px 2%;
+    background: #B9C2AC;
+}
+
+.Chamada-atendimentos > .Centro{
+
+    width: 100%;
+    text-align: center;
+    background: #B9C2AC;
+}
+
+.Chamada-atendimentos h2{
+
+    font-family: "luckiest guy";
+    font-weight: lighter;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+}
+.Chamada-atendimentos h2:hover{
+    color: black;
+    transition: 2.7s;
+}
+
+.Box-atendimentos{
+
+    padding: 40px 0px;
+    background-color: #BA7B68;
+    
+}
+
+.Box-atendimentos > .Centro{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Box-atendimentos-individual{
+
+    padding: 20px 20px;
+    margin: 5px 0 5px 10px;
+}
+
+.Box-atendimentos-conteudo{
+
+    height: 430px;
+    background: #B9C2AC;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+}
+
+.Box-atendimentos-conteudo img{
+
+    height: 350px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.Pontos-atendimentos{
+
+    text-align: center;
+}
+
+.Pontos-atendimentos h2{
+
+    color: white;
+    font-weight: lighter;
+    font-family: "Gochi Hand";
+    font-size: 40px;
+    margin: -10px 0;
+}
+
+section.Sobre {
+
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    min-height: 300px;
+    background-image: url('../IMG/Inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    
+}
+
+section.Sobre > .Centro{
+
+    position: relative;
+    max-width: 80%;
+    text-align: center;
+
+}
+
+section.Sobre h2{
+
+    font-family: 'luckiest guy';
+    color: #B9C2AC;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 20px 0 30px 0;
+
+}
+
+section.Sobre p{
+
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'gochi hand';
+    color: white;
+    word-spacing: 3px;
+
+}
+
+section.Section-info{
+
+    padding: 30px 0;
+    background-color: #B9C2AC;
+
+}
+
+section.Section-info a{
+
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cherry Bomb one';
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+
+
+section.Section-info h2{
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Cherry Bomb one';
+    font-weight: lighter;
+
+}
+
+section.Section-info h2 > .Borda-efeito{
+    
+    width: 100px;
+    height: 2px;
+    background: #BA7B68;
+    position: absolute;
+    transition: 0.7s;
+
+}
+
+section.Section-info h2:hover > .Borda-efeito{
+
+    width: 280px;
+    background: #BA7B68;
+
+}
+
+.T50{
+
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.time > .T50{
+
+    width: 150px;
+    margin: 10px;
+
+}
+
+.equipe-individual{
+
+    background-color: #BA7B68;
+    border-radius: 20px;
+    padding: 10px 0 15px 0;
+}
+
+.equipe-individual:hover{
+
+    background-color: #A1BEC2;
+    transition: 0.5s;
+
+}
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 15px 2%;
+    color: white;
+    background: #A19E9A;
+    text-align: center;
+    min-height: 180px;
+    
+}
+
+.Footer-opcoes{
+    display: inline-block;
+    padding: 0px 10px;
+    justify-content: center;
+    margin: 0px 80px;
+}
+
+.Footer-opcoes li{
+    display: block;
+    margin-top: 30px;
+    
+}
+
+.Footer-opcoes a{
+    color: #F7E9E6;
+    text-decoration: none;
+    font-family: "Gochi Hand";
+    font-size: 20px;
+}
+.Footer-opcoes a:hover{
+
+    font-weight: bolder;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+/*Fechando Footer*/
+
+
+/*Iniciando responsividade*/
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {display: block ;}
+    .Mobile i {
+        margin: 0 15px 0 15px;
+    }
+
+    section.Principal{
+
+        min-height: 100%;
+        background-position: left;
+        background-attachment: initial;
+    }
+
+    .Titulo{
+        position: relative;
+        float: right;
+        margin: 30px 0 30px 0;
+        max-height: 20px;
+    }
+
+    .Titulo img{
+        max-width: 140%;
+        margin-top: 40px;
+    }
+
+    .Titulo a{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+
+    section.Sobre {
+
+        background-position: left;
+        background-size: 120%;
+
+    }
+
+    .T50{
+
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+    nav.Desktop {display: none;}
+    

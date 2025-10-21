@@ -1,0 +1,292 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acolher</title>
+        <link rel="stylesheet" href="CSS/Profissionais.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <section class="Principal"><!--Iniciando Principal-->
+            <div class="Transparencia"></div>
+
+            <div class="Centro">
+
+                <Header><!--Abrindo header-->
+
+                    <div class="Icones-sociais"><!--Abrindo icones sociais-->
+
+                        <a href="https:/facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/espacoacolherrara/" target="blank"><i class="fa fa-instagram"></i></a>
+
+                    </div><!--Fechando Icones Sociais-->
+
+                    <div class="Clear"></div>
+
+                    <nav class="Desktop"><!--Abrindo desktop-->
+
+                        <ul>
+
+                            <li><a href="../index.php">Acolher</a></li>
+                            <li><a href="QuemSomos.php">Quem Somos?</a></li>
+                            <li><a href="Profissionais.php">Profissionais</a></li>
+                            <li><a href="Agendamento.php">Agendamento</a></li>
+                            <li><a href="Coordenacao.php">Coordenação <i class="fa-solid fa-user-lock"></i></a></li>
+
+                        </ul>
+
+                    </nav><!--Fechando Desktop-->
+
+                    <nav class="Mobile"><!--Abrindo mobile-->
+
+                        <i class="fa fa-bars"></i>
+
+                        <ul>
+
+                            <li><a href="../index.php">Acolher</a></li>
+                            <li><a href="QuemSomos.php">Quem Somos?</a></li>
+                            <li><a href="Profissionais.php">Profissionais</a></li>
+                            <li><a href="Agendamento.php">Agendamento</a></li>
+                            <li><a href="Coordenacao.php">Coordenação</a></li>
+
+                        </ul>
+                    </nav><!--Fechando Mobile -->
+
+                    <div class="clear"></div>
+
+                </Header><!--Fechando Header-->
+
+                <div class="Conteudo-cabecalho"><!--Abrindo cabecalho-->
+
+                    <img src="../src/IMG/Profissional_Ini.png" alt="Profissionais">
+                    <h2>Profissionais</h2>
+
+                    <p>
+                        Cada profissional desempenha mais que somente uma função
+                        mas sim uma missão! 
+                    </p>    
+                    <p>
+                        Cuidar e desenvolver com amor a cada atendimento
+                    </p>
+
+                </div><!--Fechando Cabecalho-->
+
+            </div><!--Fechando Centro-->
+
+        </section><!--Fechando Principal-->
+
+        <section class="Profissionais"><!--Abrindo profissionais-->
+
+            <div class="Chamada-profissionais"><!--Abrindo chamada profissionais-->
+                <div class="Centro">
+                    <h2>Conheça nossa equipe</h2>
+                </div>
+            </div><!--Fechando Chamada profissionais-->
+
+            <section class="Box-profissionais"><!--Abrindo Box profissionais-->
+
+                <div class="Centro-profissionais"><!--Abrindo centro profissionais-->
+
+                    <div class="Profissionais-docentes">
+
+                        <div class="Profissionais-foto-elisayne" ></div>
+
+                        <div class="Profissionais-info">
+                            <h2>Elisainy Rodrigues</h2>
+                            <h4>Pedagoga e Psicopedagoga</h2>
+                            <div class="Linha"></div>
+                        </div>
+
+                        <div class="Profissionais-descricao">
+
+                            <p>
+                                Pedagoga e Psicopedagoga formada, apaixonada por alfabetizar crianças, jovens e adultos.
+                            </p>
+                            <p>
+                                Cursando Neuropsicopedagogia.
+                            </p>
+                            <p>
+                                Auxilio na identificação de dificuldades na aprendizagem , no desenvolvimento de estratégias 
+                                para aprendizagem de forma personalizada, promovendo autoestima e autoconfiança dos alunos, além do apoio emocional.
+                            </p>
+                            <p>
+                                O atendimento promove melhorias no desempenho escolar, no desenvolvimento de habilidades sociais e habilidades de 
+                                solução de problemas. Com o acompanhamento e orientação familiar, refletindo em uma parceria eficaz no processo educativo.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="Profissionais-docentes">
+
+                        <div class="Profissionais-foto-marcia" ></div>
+
+                        <div class="Profissionais-info">
+                            <h2>Márcia Rosano</h2>
+                            <h4>Nutricionista</h4>
+                            <div class="Linha"></div>
+                        </div>
+
+                        <div class="Profissionais-descricao">
+
+                            <p>
+                                Nutricionista há mais de 14 anos, dedicada a nutrir vidas e ajudar pessoas na construção de uma relação saudável com a comida.
+                            </p>
+                            <p>
+                                Apaixonada por nutrição infantil e desenvolvimento de projetos de educação nutricional
+                            </p>
+                            <p>
+                                Ampla experiência em alimentação escolar, seletividade, transtornos alimentares e necessidades especiais.
+                            </p>
+                            <p>
+                                Terapia nutricional com pacinetes com dificuldades com alimentação e aceitabilidade quanto alguns alimentos especificos.
+                                Trabalho na prevenção e tratamento da desnutrição, melhoria da resposta imunológica,reeducação alimentar.
+                            </p>
+                            <p>
+                                Promovendo melhor qualidade de vida!
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="Profissionais-docentes">
+
+                        <div class="Profissionais-foto-paloma" ></div>
+
+                        <div class="Profissionais-info">
+                            <h2>Paloma Silva</h2>
+                            <h4>Musicoterapeuta</h4>
+                            <div class="Linha"></div>
+                        </div>
+
+                        <div class="Profissionais-descricao">
+
+                            <p>
+                                Musicoterapeuta formada em 2019, especialista em musicoterapia receptiva clínica e pós graduanda em análise do comportamento aplicada pela PUC-GO.
+                            </p>
+                            <p>
+                                Fonoaudiologa em formação pela FMU-SP.
+                            </p>
+                            <p>
+                                Experiência abrangente em estimulação precoce para ensino de pré requisitos do desenvolvimento
+                            </p>
+                            <p>
+                                Utiliza a música como ferramenta terapêutica para promover o desenvolvimento cognitivo, emocional, social e físico de crianças com necessidades especiais, melhorando qualidade de vida e bem-estar.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="Profissionais-docentes">
+
+                        <div class="Profissionais-foto-paula" ></div>
+
+                        <div class="Profissionais-info">
+                            <h2>Paula Assumpção</h2>
+                            <h4>Psicanalista e Terapeuta</h4>
+                            <div class="Linha"></div>
+                        </div>
+
+                        <div class="Profissionais-descricao">
+
+                            <p>
+                                Terapeuta formada, com especialidade em psicanálise clínica,busca atender com amor e empatia.
+                            </p>
+                            <p>
+                                Empenhada em diversos projetos sociais, voltado ao bem estar de pessoas em vulnerabilidade social, sempre preocupada com a questão social da população.
+                            </p>
+                            <p>
+                                Atendendo desde crianças, até adultos, em questões de comportamento infantil, e relacionamentos que precisam de acompanhamento e aconselhamento.
+                            </p>
+                            <p>
+                                Auxiliando de forma leve, a tratar de questões muito atuais em nosso dia a dia, como ansiedade, depressão, crises de pânico, comportamento involuntário. 
+                                Guiando para um diagnóstico aprofundado, e para seções que buscam a melhora do paciente.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div><!--Fechando centro profissionais--> 
+
+            </section><!--Fechando Box profissionais-->
+
+        </section><!--Fechando profissionais-->
+
+
+
+        <div class="Final">
+            <h2>Somos uma família, e estamos aqui para te ajudar!</h2>
+        </div>
+
+        <footer>      
+
+            <div class="Footer-opcoes">
+
+                <li><a href="../index.php">Acolher</a></li>
+                <li><a href="QuemSomos.php#Historia">História</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="QuemSomos.php">Quem Somos?</a></li>
+                <li><a href="https://maps.app.goo.gl/TL5BUd1WbPBUJEJN7" target="_blank">Localidade</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="Profissionais.php">Profissionais</a></li>
+                <li><a href="QuemSomos.php#Duvidas">Dúvidas</a></li>
+
+            </div>
+
+            <div class="Footer-opcoes">
+
+                <li><a href="Agendamento.php#Agendamento">Agendamentos</a></li>
+                <li><a href="../index.php#Tipos">Atendimentos</a></li>
+
+            </div>
+
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <script>
+
+            $(function (){
+
+                $('nav.Mobile i').click(function(){
+
+                    var clicando = $(this).parent().find('ul')
+                    if(clicando.is(':visible') == false) {
+                        clicando.fadeIn();
+                    }
+                    else
+                    {
+                        clicando.fadeOut();
+                    }
+
+                })
+            })
+
+        </script>
+
+    </body>
+    
+</html
