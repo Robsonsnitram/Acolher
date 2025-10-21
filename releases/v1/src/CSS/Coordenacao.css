@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,"Luckiest Guy","Cherry Bomb";
+}   
+
+
+html, body{ height: 100%;}
+
+/*Classes auxiliares*/
+
+section.Principal{
+
+    position: relative;
+    background-image: url('../IMG/Coordenacao.jpeg');
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 100%;
+    background-attachment: fixed;
+
+}
+
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 5%;
+
+}
+
+.Clear{
+    clear: both;
+}
+.Transparencia{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+section.Transparencia {
+
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    
+}
+
+section.Principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffff;
+    z-index: 2;
+}
+
+.Icones-sociais{
+    float: right;
+}
+
+.Icones-sociais a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+.Icones-sociais a:hover{
+    color: grey;
+}
+
+
+/*Navbar*/
+nav.Desktop{
+
+    margin-top: 30px;
+    float: right;
+
+}
+
+nav.Desktop ul{
+    list-style-type: none;
+}
+
+nav.Desktop li{
+
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+nav.Desktop a{
+
+    color: #fff;
+    text-decoration: none;
+    background: #A1BEC2;
+    border-radius: 8px;
+    padding: 6px 8px;
+    font-family: "luckiest guy";
+    box-shadow: 4px 4px 0px 2px black;
+
+}
+
+nav.Desktop a:hover{
+
+    color: black;
+    transition: 0.8s;
+ 
+}
+
+nav.Mobile{
+    display: none;
+    float: right;
+}
+
+nav.Mobile i{
+
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    color: #F7E9E6;
+    cursor: pointer;
+    float: right;
+}
+
+nav.Mobile ul{
+
+    position: absolute;
+    right: 15%;
+    width: 80%;
+    top: 60px;
+    list-style-type: none;
+    display: none; 
+}
+
+nav.Mobile li{
+    
+    font-weight: lighter;
+    box-shadow: 5px 4px 1px 1px #F7E9E6;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    background: #A1BEC2;
+    margin-bottom: 10px;
+}
+
+nav.Mobile a{
+
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "luckiest guy";
+    text-transform: uppercase;
+}
+/*fechando navbar*/
+
+.Titulo{
+
+    position: relative;
+    max-width: 800px;
+    max-height: 200px;
+    margin-top: 10%;
+}
+
+.Titulo img{
+    float: left;
+    margin-top: 90px;
+}
+
+.Titulo h1{
+
+    float: left;
+    font-size: 80px;
+    color: white;
+    text-decoration: none;
+    font-family: 'luckiest guy';
+    font-weight: lighter;
+
+}
+
+.T50{
+
+    position: relative;
+    text-align: right;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.T50 input[type="submit"]{
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Cherry Bomb one';
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 0 15px 0;
+    margin: 0;
+    width: 120px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.T50 input[type="submit"]:hover{
+
+    background-color: #A1BEC2;
+    transition: 0.5s;
+
+}
+
+.T50 input{
+
+    font-family: 'montserrat';
+    font-weight: bold;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 150px;
+
+}
+
+.T50 ::placeholder{
+
+    font-family: 'Gochi hand';
+    font-weight: lighter;
+    font-size: 18px;
+    color: #c4c4c4;
+
+}
+
+.T50 div{
+
+    display: inline-block;
+}
+
+/*Fechando Footer*/
+
+
+/*Iniciando responsividade*/
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {display: block ;}
+    .Mobile i {
+        margin: 0 15px 0 15px;
+    }
+
+    section.Principal{
+
+        min-height: 100%;
+        background-position: 35%;
+        background-attachment: initial;
+    }
+
+    .Titulo{
+        position: relative;
+        float: right;
+        margin: 30px 0 30px 0;
+        max-height: 20px;
+    }
+
+    .Titulo img{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .T50{
+
+        margin-top: 50%;
+    }
+
+
+    .T50 input{
+
+        margin-top: 300px;
+
+    }
+
+
+    nav.Desktop {display: none;}
+    
+}

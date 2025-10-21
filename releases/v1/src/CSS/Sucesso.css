@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,"Luckiest Guy","Cherry Bomb";
+}   
+
+
+html, body{ height: 100%;}
+
+/*Classes auxiliares*/
+
+section.Principal{
+
+    position: relative;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 15%;
+    background-attachment: fixed;
+
+}
+
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 5%;
+
+}
+
+.Clear{
+    clear: both;
+}
+
+section.Transparencia {
+
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    
+}
+
+section.Principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    z-index: 2;
+    margin-top: 32px;
+}
+
+
+
+
+/*Iniciando responsividade*/
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {display: block ;}
+    .Mobile i {
+        margin: 0 15px 0 15px;
+    }
+
+    section.Principal{
+
+        min-height: 100%;
+        background-position: 35%;
+        background-attachment: initial;
+    }
+
+    .Titulo{
+        position: relative;
+        float: right;
+        margin: 30px 0 30px 0;
+        max-height: 20px;
+    }
+
+    .Titulo img{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .T50{
+
+        margin-top: 50%;
+    }
+
+
+    .T50 input{
+
+        margin-top: 300px;
+
+    }
+
+
+    nav.Desktop {display: none;}
+    
+}
