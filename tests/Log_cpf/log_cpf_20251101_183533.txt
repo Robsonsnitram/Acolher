@@ -1,0 +1,6 @@
+===== TESTE DE CPF =====
+Data/Hora: 2025-11-01 18:35:33
+CPF testado: 47543322889
+Resultado: ✅ CPF válido
+========================
+

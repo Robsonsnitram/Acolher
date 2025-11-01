@@ -1,0 +1,6 @@
+===== TESTE DE CPF =====
+Data/Hora: 2025-11-01 19:31:55
+CPF testado: 473.433.228/89
+Resultado: ❌ CPF inválido
+========================
+

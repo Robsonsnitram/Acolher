@@ -1,0 +1,6 @@
+===== TESTE DE SENHA =====
+Data/Hora: 2025-11-01 18:14:17
+Senha digitada: Acolher@2025
+Resultado: ✅ Senha correta! Acesso permitido.
+==========================
+
